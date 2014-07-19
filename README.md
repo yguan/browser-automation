@@ -41,11 +41,11 @@ var browser = window.browser;
 browser.init(); // browser is a singleton, and it needs to be initialized.
 
 browser
-    .openWindow('https://www.google.com')  // The operation is added to the chain, but not executed yet.
+    .openWindow('https://www.google.com') // The operation is added to the chain, but not executed.
     
-    .waitAndClick('#gbqfsa');  // Use css selector.
+    .waitAndClick('#gbqfsa'); // Use css selector.
     
-browser.end();  // Execute all operations in the chain;
+browser.end(); // Execute all operations in the chain;
 ```
 
 ## License
