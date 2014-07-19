@@ -1,0 +1,22 @@
+{
+  "name": "browser-automation",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yguan/browser-automation.git"
+  },
+  "description": "Simple library for automating browser interactions",
+  "author": "Yong Guan",
+  "dependencies": {
+      "gulp": "~3.8.0",
+      "browserify": "~3.36.0",
+      "vinyl-source-stream": "~0.1.1",
+      "simulate": "0.0.4"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
