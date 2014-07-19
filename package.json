@@ -8,15 +8,27 @@
   "description": "Simple library for automating browser interactions",
   "author": "Yong Guan",
   "dependencies": {
-      "gulp": "~3.8.0",
-      "browserify": "~3.36.0",
-      "vinyl-source-stream": "~0.1.1",
-      "simulate": "0.0.4"
+    "gulp": "~3.8.0",
+    "browserify": "~3.36.0",
+    "vinyl-source-stream": "~0.1.1",
+    "simulate": "0.0.4"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yguan/browser-automation/issues"
+  },
+  "homepage": "https://github.com/yguan/browser-automation",
+  "main": "browser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "browser",
+    "automation",
+    "test"
+  ]
 }
