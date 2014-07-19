@@ -6,8 +6,6 @@ This repository contains the source code of a browser automation utlility, which
 
 The basic concept of this browser automation utility is to use JavaScript directly manipulate the browser, and it uses the JavaScript library available to the browser to manipulate the browser's DOM.
 
-## Demo
-
 ## Development
 
 #### Overview of Folder Structure
@@ -34,6 +32,21 @@ Here are the steps:
 
 ## Usage
 
+`browser.js` is built with [Browserify's standalone option](http://www.forbeslindesay.co.uk/post/46324645400/standalone-browserify-builds). You can use it with CommonJS, require.js, or include the file directly.
+
+Here is a sample that use `window.browser`:
+```javascript
+var browser = window.browser;
+
+browser.init(); // browser is a singleton, and it needs to be initialized.
+
+browser
+    .openWindow('https://www.google.com')  // The operation is added to the chain, but not executed yet.
+    
+    .waitAndClick('#gbqfsa');  // Use css selector.
+    
+browser.end();  // Execute all operations in the chain;
+```
 
 ## License
 
